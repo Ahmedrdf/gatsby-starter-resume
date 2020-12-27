@@ -23,10 +23,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+           Elève ingénieur en génie logiciel à la reherche d'un stage PFE.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -48,76 +45,98 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experience Professionnelle</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Stage en Confledis Paris </h3>
+              <div className="subheading mb-3">Développeur Web </div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+               Réalisation d'une plateforme  de gestion de chaines de restaurants en version web et mobile.
+            
               </p>
+              <p>
+               Environnement Technique : Symfony, Angular, docker, mdb, gtlab, jira
+              </p>
+              
+
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">15 Juillet 2020 - 25 octobre 200</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Stage en Think Thank SARL buisness Solutions </h3>
+              <div className="subheading mb-3">Développeur Web</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+               Amélioration d'une plateforme de test Qualité (PTS-QA)
+             
+            
+              </p>
+              <p>
+              Environnement technique : JEE, Angular, Rest...
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">Juillet 2019 -Septembre 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Stage en Bonne Gouvernanace de l'informatique (BGI)</h3>
+              <div className="subheading mb-3">Développeur web et mobile </div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+            Réalisation d'une solution de saisie portable de relève 
+             
+            
+              </p>
+              <p>
+              Environnement technique : Android, JEE, bootstrap, jQuery, SQlite, MySQlWorkbunch
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">Février 2018 - Juin 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Stage en Bonne Gouvernanace de l'informatique (BGI)</h3>
+              <div className="subheading mb-3">Développeur Mobile</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+           Réalisation d'une application de soutien sanitaire et de détection de symptome
+             
+            
+              </p>
+              <p>
+              Environnement technique : Android, JEE, SQlite, MySQlWorkbunch
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">Juillet 2017, Septembre 2017 </span>
+            </div>
+      
+        </div>
+        <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Stage dans la société de transport de tunis</h3>
+              <div className="subheading mb-3">Shout! Media Productions</div>
+              <p>
+          Maintenance de matériel informatique, Configuration réseau...
+             
+            
+              </p>
+             
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Juin 2016, Juillet 2016</span>
             </div>
           </div>
         </div>
+
       </section>
 
       <hr className="m-0" />
@@ -131,24 +150,24 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
+              <h3 className="mb-0">L'Institu Suoérieur de linformatiqur (ISI)</h3>
+              <div className="subheading mb-3">Diplome National d'ingénieur en génie logiciel</div>
               <div>Computer Science - Web Development Track</div>
               <p>GPA: 3.23</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">2018 - 2021</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
+              <h3 className="mb-0">L'Institu Suoérieur de linformatiqur (ISI)</h3>
+              <div className="subheading mb-3">Licence fondamentale en Science Informatique </div>
               <p>GPA: 3.56</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">2015- 2018</span>
             </div>
           </div>
         </div>
@@ -257,39 +276,29 @@ const IndexPage = () => (
         id="awards"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Formations &amp; Certifications</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+             Applied AI with DeepLearning
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+            Advanced Machine Learning and Signal Processing
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
+            Adbance dData Dcience 
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
+            Fundamentals of Scalable Data Science 
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
+            Algoorithme Toolbox
             </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
+           
           </ul>
         </div>
       </section>
